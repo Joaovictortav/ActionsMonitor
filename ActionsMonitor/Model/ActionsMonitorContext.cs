@@ -1,8 +1,5 @@
-using ActionsMoniotr.Model;
 using Microsoft.EntityFrameworkCore;
-using Action = ActionsMonitor.Model.Action;
 using DbContext = Microsoft.EntityFrameworkCore.DbContext;
-using Monitor = ActionsMonitor.Model.Monitor;
 
 namespace ActionsMonitor.Model;
 
