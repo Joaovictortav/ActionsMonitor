@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a78dcc39-fbe0-4d32-a7a2-d6a50d8e20d0" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.ActionsMonitor/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.ActionsMonitor/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.ActionsMonitor/.idea/indexLayout.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ActionsMonitor.sln" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ActionsMonitor/ActionsMonitor.csproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ActionsMonitor/Controller/MonitorController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ActionsMonitor/Model/Action.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ActionsMonitor/Model/DB" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ActionsMonitor/Model/DTO/Brapi/Content.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ActionsMonitor/Model/DTO/Brapi/QuoteDto.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ActionsMonitor/Model/Logs.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ActionsMonitor/Model/Monitor.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ActionsMonitor/Model/StonkMonitorContext.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ActionsMonitor/Monitors/Algorithms/Algorithm.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ActionsMonitor/Monitors/Algorithms/Fibonacci.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ActionsMonitor/Monitors/Algorithms/Startup.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ActionsMonitor/Monitors/Algorithms/ValorMedio.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ActionsMonitor/Monitors/Monitores/BaseWrapper.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ActionsMonitor/Monitors/Monitores/Bolsa.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ActionsMonitor/Monitors/Monitores/Brapi.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ActionsMonitor/Program.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ActionsMonitor/PubSub/Client.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ActionsMonitor/PubSub/PubSubServer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ActionsMonitor/Util/RestClient.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ActionsMonitor/bin/Debug/net6.0/ActionsMonitor.deps.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ActionsMonitor/bin/Debug/net6.0/ActionsMonitor.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ActionsMonitor/bin/Debug/net6.0/ActionsMonitor.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ActionsMonitor/bin/Debug/net6.0/ActionsMonitor.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ActionsMonitor/bin/Debug/net6.0/ActionsMonitor.runtimeconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ActionsMonitor/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.Abstractions.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ActionsMonitor/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.Relational.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ActionsMonitor/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ActionsMonitor/bin/Debug/net6.0/Microsoft.Extensions.Caching.Abstractions.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ActionsMonitor/bin/Debug/net6.0/Microsoft.Extensions.Caching.Memory.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ActionsMonitor/bin/Debug/net6.0/Microsoft.Extensions.Configuration.Abstractions.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ActionsMonitor/bin/Debug/net6.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ActionsMonitor/bin/Debug/net6.0/Microsoft.Extensions.DependencyInjection.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ActionsMonitor/bin/Debug/net6.0/Microsoft.Extensions.Logging.Abstractions.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ActionsMonitor/bin/Debug/net6.0/Microsoft.Extensions.Logging.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ActionsMonitor/bin/Debug/net6.0/Microsoft.Extensions.Options.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ActionsMonitor/bin/Debug/net6.0/Microsoft.Extensions.Primitives.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ActionsMonitor/bin/Debug/net6.0/MySqlConnector.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ActionsMonitor/bin/Debug/net6.0/Newtonsoft.Json.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ActionsMonitor/bin/Debug/net6.0/Pomelo.EntityFrameworkCore.MySql.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ActionsMonitor/obj/ActionsMonitor.csproj.nuget.dgspec.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ActionsMonitor/obj/ActionsMonitor.csproj.nuget.g.props" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ActionsMonitor/obj/ActionsMonitor.csproj.nuget.g.targets" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ActionsMonitor/obj/Debug/net6.0/.NETCoreApp,Version=v6.0.AssemblyAttributes.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ActionsMonitor/obj/Debug/net6.0/ActionsMonitor.AssemblyInfo.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ActionsMonitor/obj/Debug/net6.0/ActionsMonitor.AssemblyInfoInputs.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ActionsMonitor/obj/Debug/net6.0/ActionsMonitor.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ActionsMonitor/obj/Debug/net6.0/ActionsMonitor.GlobalUsings.g.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ActionsMonitor/obj/Debug/net6.0/ActionsMonitor.assets.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ActionsMonitor/obj/Debug/net6.0/ActionsMonitor.csproj.AssemblyReference.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ActionsMonitor/obj/Debug/net6.0/ActionsMonitor.csproj.CopyComplete" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ActionsMonitor/obj/Debug/net6.0/ActionsMonitor.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ActionsMonitor/obj/Debug/net6.0/ActionsMonitor.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ActionsMonitor/obj/Debug/net6.0/ActionsMonitor.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ActionsMonitor/obj/Debug/net6.0/ActionsMonitor.genruntimeconfig.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ActionsMonitor/obj/Debug/net6.0/ActionsMonitor.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ActionsMonitor/obj/Debug/net6.0/apphost.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ActionsMonitor/obj/Debug/net6.0/ref/ActionsMonitor.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ActionsMonitor/obj/Debug/net6.0/refint/ActionsMonitor.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ActionsMonitor/obj/project.assets.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ActionsMonitor/obj/project.nuget.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ActionsMonitor/obj/project.packagespec.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ActionsMonitor/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2NSqwsp5dFL8zlgxxvJbhHqSgMG" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;rider.external.source.directories&quot;: [
+      &quot;C:\\Users\\Gamer\\AppData\\Roaming\\JetBrains\\Rider2022.3\\resharper-host\\DecompilerCache&quot;,
+      &quot;C:\\Users\\Gamer\\AppData\\Roaming\\JetBrains\\Rider2022.3\\resharper-host\\SourcesCache&quot;,
+      &quot;C:\\Users\\Gamer\\AppData\\Local\\Symbols\\src&quot;
+    ]
+  }
+}</component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a78dcc39-fbe0-4d32-a7a2-d6a50d8e20d0" name="Changes" comment="" />
+      <created>1679668072926</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1679668072926</updated>
+      <workItem from="1679668074219" duration="88000" />
+      <workItem from="1679668534841" duration="124000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="VcsManagerConfiguration">
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+</project>
