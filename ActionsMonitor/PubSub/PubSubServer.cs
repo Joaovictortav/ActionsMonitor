@@ -22,10 +22,7 @@ public abstract class PubSubServer
     
     public static void SendMessageInQueue(string topic, string mensage)
     {
-        var value = new Dictionary<string, string>();
-        value.Add(topic, mensage);
-        
-        Channels.TryAdd(DateTime.Now, value);
+        Channels.TryAdd(DateTime.Now, new(){{topic, mensage}});
     }
 
     private static Task SendMessage()
