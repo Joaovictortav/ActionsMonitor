@@ -25,7 +25,7 @@ public abstract class PubSubServer
         Channels.TryAdd(DateTime.Now, new(){{topic, mensage}});
     }
 
-    private static Task SendMessage()
+    private static Task Listener()
     {
         while (true)
         {
@@ -51,7 +51,7 @@ public abstract class PubSubServer
 
     public static async Task Start()
     {
-        await SendMessage();
+        await Listener();
     }
     private static async Task InterceptMessage(string destiny, string topic, string message)
     {
