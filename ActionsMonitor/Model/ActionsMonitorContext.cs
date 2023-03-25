@@ -33,7 +33,7 @@ public class ActionsMoniotrContext : DbContext
     {
         if (!optionsBuilder.IsConfigured)
         {
-            var connectionString = "server=finance-monitor.cidauubkbppv.sa-east-1.rds.amazonaws.com;uid=admin;pwd=root1234;database=joao";
+            var connectionString = "server=financemonitor.ca2n3ugnqnaf.sa-east-1.rds.amazonaws.com;uid=admin;pwd=rootroot;database=finance_monitor";
             optionsBuilder.UseMySql(connectionString, ServerVersion.Parse("8.0.27-mysql"));
         }
     }

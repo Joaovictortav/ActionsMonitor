@@ -4,7 +4,7 @@ CREATE TABLE `action` (
   `MonitorId` int NOT NULL,
   `Active` bit(1) NOT NULL,
   PRIMARY KEY (`Id`)
-) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=utf8mb3 COLLATE=utf8mb3_bin;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb3 COLLATE=utf8mb3_bin;
 
 
 CREATE TABLE `logs` (
@@ -14,7 +14,7 @@ CREATE TABLE `logs` (
   `Message` text CHARACTER SET utf8mb3 COLLATE utf8mb3_bin NOT NULL,
   `InclusionDate` datetime NOT NULL,
   PRIMARY KEY (`Id`)
-) ENGINE=InnoDB AUTO_INCREMENT=236 DEFAULT CHARSET=utf8mb3 COLLATE=utf8mb3_bin;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb3 COLLATE=utf8mb3_bin;
 
 
 CREATE TABLE `monitor` (
@@ -23,4 +23,4 @@ CREATE TABLE `monitor` (
   `Url` varchar(255) CHARACTER SET utf8mb3 COLLATE utf8mb3_general_ci NOT NULL,
   `Active` bit(1) NOT NULL,
   PRIMARY KEY (`Id`)
-) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=utf8mb3 COLLATE=utf8mb3_bin;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb3 COLLATE=utf8mb3_bin;
