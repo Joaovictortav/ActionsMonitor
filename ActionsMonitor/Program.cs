@@ -1,10 +1,6 @@
-﻿using ActionsMonitor.Controller;
-using ActionsMonitor.Monitors.Algorithms;
-using ActionsMonitor.PubSub;
-
-await Task.WhenAll(new List<Task>
+﻿await Task.WhenAll(new List<Task>
 {
-    Task.Run(PubSubServer.Start),
-    Task.Run(MonitorController.Start),
-    Task.Run(Startup.Start),
+    Task.Run(ActionsMonitor.PubSub.PubSubServer.Listener),
+    Task.Run(ActionsMonitor.Controller.MonitorController.Start),
+    Task.Run(ActionsMonitor.Monitors.Algorithms.Startup.Start),
 });

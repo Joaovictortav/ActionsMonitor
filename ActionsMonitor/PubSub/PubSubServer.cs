@@ -25,7 +25,7 @@ public abstract class PubSubServer
         Channels.TryAdd(DateTime.Now, new(){{topic, mensage}});
     }
 
-    private static Task Listener()
+    public static Task Listener()
     {
         while (true)
         {
@@ -47,11 +47,6 @@ public abstract class PubSubServer
 
             Channels.TryRemove(channel.Key, out Dictionary<string, string> _);
         }
-    }
-
-    public static async Task Start()
-    {
-        await Listener();
     }
     private static async Task InterceptMessage(string destiny, string topic, string message)
     {
